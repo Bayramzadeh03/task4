@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #06295f;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav ul a li {
+    color: white;
+    font-size: 16px;
+
+    &:hover {
+        color: #1abc9c;
+        transition: 0.7s;
+    }
+}
+
+nav p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.one {
+    width: 100%;
+    height: 90vh;
+    background-color: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.one h1 {
+    color: white;
+    font-size: 32px;
+    word-spacing: 8px;
+
+}
+
+.one p {
+    color: white;
+    font-size: 25px;
+}
+
+.two {
+    width: 80%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.two h1 {
+    color: #06295f;
+    font-size: 30px;
+    padding-top: 100px;
+
+}
+
+.two .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.card .card1 {
+    position: relative;
+
+}
+
+.card .card1 .ust {
+    position: absolute;
+    width: 320px;
+    height: 231px;
+    background-color: aquamarine;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition:  all 500ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+
+}
+
+.card .card1:hover .ust{
+    opacity: 1 !important;
+    background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+.card .card2 .ust {
+    position: absolute;
+    width: 320px;
+    height: 231px;
+    background-color: aquamarine;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition:  all 500ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+
+}
+
+.card .card2:hover .ust{
+    opacity: 1 !important;
+    background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+
+.card .card3 .ust {
+    position: absolute;
+    width: 320px;
+    height: 231px;
+    background-color: aquamarine;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition:  all 500ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+
+}
+
+.card .card3:hover .ust{
+    opacity: 1 !important;
+    background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+.card .card4 .ust {
+    position: absolute;
+    width: 320px;
+    height: 231px;
+    background-color: aquamarine;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition:  all 500ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+
+}
+
+.card .card4:hover .ust{
+    opacity: 1 !important;
+    background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+.card .card5 .ust {
+    position: absolute;
+    width: 320px;
+    height: 231px;
+    background-color: aquamarine;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition:  all 500ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+
+}
+
+.card .card5:hover .ust{
+    opacity: 1 !important;
+    background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+.card .card6 .ust {
+    position: absolute;
+    width: 320px;
+    height: 231px;
+    background-color: aquamarine;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition:  all 500ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+
+}
+
+.card .card6:hover .ust{
+    opacity: 1 !important;
+    background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+.three{
+    width: 100%;
+    height: 80vh;
+    background-color: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+.three h1{
+    color: white;
+    font-size: 40px;
+}
+.three .write{
+    width: 55%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.three .write p{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.three  button{
+    padding: 13px;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    background-color: #1abc9c;
+    border-radius: 7px;
+    &:hover{
+        background-color: white;
+        color: #1abc9c;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 35vh;
+    background-color: #06295f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+
+
+
